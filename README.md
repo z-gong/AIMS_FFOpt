@@ -1,6 +1,8 @@
+## This repo is archieved along with [AIMS_Tools](https://github.com/z-gong/AIMS_Tools). Please check [ms-tools](https://github.com/z-gong/ms-tools) for latest development.
+
 # ffoptimizer
 Automatically optimize the LJ parameters for TEAM Force Field against experimental data of density and enthalpy of vaporization.  
-`ms-tools`, `DFF`, `Packmol` and `GROMACS` are required.
+`AIMS_Tools`, `DFF`, `Packmol` and `GROMACS` are required.
 
 ## Steps
 
@@ -8,7 +10,7 @@ Automatically optimize the LJ parameters for TEAM Force Field against experiment
 * Specify paths for required packages.
   The version of `mstools` should be `0.1`.
 ```
-  MS_TOOLS_DIR = '/home/gongzheng/GitHub/ms-tools'
+  MS_TOOLS_DIR = '/home/gongzheng/GitHub/AIMS_Tools'
   PACKMOL_BIN = '/share/apps/tools/packmol'
   DFF_ROOT = '/home/gongzheng/apps/DFF/Developing'
 ```
